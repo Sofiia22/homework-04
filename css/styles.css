@@ -18,8 +18,20 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-* {
-    color: tomato;
+
+
+a {
+    color: currentColor;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -198,7 +210,6 @@ background-position: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    background-color: #757575;
 }
 
 .hero-btn {
@@ -222,7 +233,8 @@ background-position: center;
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #2196F3 color: #fffff
+    background-color: #2196F3;
+    color:#fffff;
 }
 
 /* --ABOUT-- */
@@ -406,31 +418,26 @@ background-position: center;
 }
 
 /*--CLIENTS--*/
-/* .clients-container{
-    border: 1px rgba(0, 0, 0, 1);
-    background-color: #F5F5F5;
-    padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-
-} */
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .clients-title{
     font: Roboto;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.14;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 
 .clients-list {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
         justify-content: center;
 }
 
@@ -444,32 +451,28 @@ background-position: center;
 
 
  .clients-soc-link {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     width: 170px;
     height: 92px;
     outline: none;
-    color:#AFB1B8;
-    padding: 16px 32px;
-    margin-bottom: 94px;
+    fill: #AFB1B8;
 
 }
 
-.clients-soc-icon{
-    fill: #AFB1B8;
+.clients-soc-icon {
+    color: currentColor;
 }
 
 .clients-soc-link:hover,
 .clients-soc-link:focus{
-    border-color:#2196F3;
-}
-
-
-.clients-soc-icon:hover,
-.clients-soc-icon:focus {
+    border: 1px solid #2196F3;
     fill: #2196F3;
 }
+
 
 
 
@@ -478,7 +481,7 @@ background-position: center;
 
 
 .footer {
-    background-color: #757575;
+    background-color: #2F303A;
    padding-top: 60px;
    padding-bottom: 60px;
 }
@@ -645,7 +648,7 @@ background-position: center;
 
 .item-link:hover,
 .item-link:focus{
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .apps {
